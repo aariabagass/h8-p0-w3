@@ -6,10 +6,10 @@ var input = [
 ]
 function dataHandling(input) {
     for (i = 0; i <= input.length - 1; i++) {
-        console.log('Nomor ID:  ' + input[i][0]) //baris 1
-        console.log('Nama:  ' + input[i][1]) //baris 2
-        console.log('TTL:  ' + input[i][2] + ' ' + input[i][3]) //baris 3 & 4
-        console.log('Hobi:  ' + input[i][4]) //baris 5
+        console.log(`Nomor ID:  ${input[i][0]}`) //baris 1
+        console.log(`Nama Lengkap:  ${input[i][1]}`) //baris 2
+        console.log(`TTL:  ${input[i][2]} ${input[i][3]}`) //baris 3 & 4
+        console.log(`Hobi:  ${input[i][4]}`) //baris 5
         console.log('')
     }
 }
